@@ -7,13 +7,13 @@
 
 ### _Bigger Picture_
 
-- Strive for [==simplicity==](https://ahastack.dev/concepts/simplicity/). Don't over-engineer solutions. [Complexity BAD](https://grugbrain.dev/)!
-- Encourage your peers, ==collaborate==, provide meaningful feedback, engage the discussion about the solutions, methods and practices in a team. 
-- Focus on business goals and ==end users==. Don't get slowed down by "best" practices, "best" solutions, [premature optimization](https://www.youtube.com/watch?v=tKbV6BpH-C8), tooling, "future proof" extensibility etc. 
-- Avoid complicated system design in the beginning. Plan in advance ==just enough== to meet the _requirements_.
+- Strive for [_simplicity_](https://ahastack.dev/concepts/simplicity/). Don't over-engineer solutions. [Complexity BAD](https://grugbrain.dev/)!
+- Encourage your peers, _collaborate_, provide meaningful feedback, engage the discussion about the solutions, methods and practices in a team. 
+- Focus on business goals and _end users_. Don't get slowed down by "best" practices, "best" solutions, [premature optimization](https://www.youtube.com/watch?v=tKbV6BpH-C8), tooling, "future proof" extensibility etc. 
+- Avoid complicated system design in the beginning. Plan in advance _just enough_ to meet the requirements.
 - Don't forget to ==refactor== sub-optimal decisions later on.
-- Choose ==boring== technologies. Smth simple, long-supported and well-adopted. Smth built upon language (of choice) built-in library or primitives, which doesn't reinvent the wheel.
-- Document your decisions process (ADR and complicated bug issues), attach research resources. ==Explain yourself==. Write down motivation behind the solution for the time being. Store such documents in numerical order, even if implementation was changed, just prefix the older solution with a disclaimer and a link to an updated document.
+- Choose _boring_ technologies. Smth simple, long-supported and well-adopted. Smth built upon language (of choice) built-in library or primitives, which doesn't reinvent the wheel.
+- Document your decisions process (ADR and complicated bug issues), attach research resources. _Explain yourself_. Write down motivation behind the solution for the time being. Store such documents in numerical order, even if implementation was changed, just prefix the older solution with a disclaimer and a link to an updated document.
 
 ### _Details_
 

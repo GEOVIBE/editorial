@@ -8,25 +8,25 @@
 ### _Bigger Picture_
 
 - Strive for [_simplicity_](https://ahastack.dev/concepts/simplicity/). Don't over-engineer solutions. [Complexity BAD](https://grugbrain.dev/)!
-- Encourage your peers, _collaborate_, provide meaningful feedback, engage the discussion about the solutions, methods and practices in a team. 
-- Focus on business goals and _end users_. Don't get slowed down by "best" practices, "best" solutions, [premature optimization](https://www.youtube.com/watch?v=tKbV6BpH-C8), tooling, "future proof" extensibility etc. 
+- Encourage __collaboration__ among your peers. Provide meaningful feedback and engage in discussions about solutions, methods, and practices within the team.
+- Don't let yourself be bogged down by chasing "best" practices or solutions, [premature optimization](https://www.youtube.com/watch?v=tKbV6BpH-C8), excessive tooling, or striving for "future-proof" extensibility.
 - Avoid complicated system design in the beginning. Plan in advance _just enough_ to meet the requirements.
 - Don't forget to ==refactor== sub-optimal decisions later on.
-- Choose _boring_ technologies. Smth simple, long-supported and well-adopted. Smth built upon language (of choice) built-in library or primitives, which doesn't reinvent the wheel.
-- Document your decisions process (ADR and complicated bug issues), attach research resources. _Explain yourself_. Write down motivation behind the solution for the time being. Store such documents in numerical order, even if implementation was changed, just prefix the older solution with a disclaimer and a link to an updated document.
+- Choose _boring_ technologies. Opt for simplicity, longevity, and widespread adoption. Prefer technologies built upon the language (of choice) built-in libraries or primitives, rather than reinventing the wheel.
+- Document your decisions process (ADR and complicated bug issues), attach research resources. _Explain yourself_. Explain your rationale behind the solution and store such documents in numerical order. Even if implementations change, prefix older solutions with a disclaimer and a link to the updated document.
 
 ### _Details_
 
-- Write code in Declarative style, instead of Imperative. Let your code tell by itself on **WHAT** to do, instead of **HOW** to do.
-- Immutability. As a general rule of thumb, try not to modify value of an already declared variable/data structure. Create another variable instead, be aware of js passing values as links, avoid that, prefer `.map()`, `.reduce()`, `.filter()` instead of `.forEach()`.
-- Use linters and formatting tools, to maintain persistent code style in all of a codebase.
-- Use [early return pattern](https://www.youtube.com/watch?v=CFRhGnuXG-4) to escape branching `if`-statements. Instead of writing the else statement, return an "error" condition first, and put all of the main logic beneath it.
-- Implement [extraction](https://www.youtube.com/watch?v=CFRhGnuXG-4) tactics for same reason. Decouple some complex logic evaluating the conditions for an `if`-statement into a distinct function. Call it from inside the method in one line.
-- Avoid mutating state out of function scope, try to write pure functions when possible.
-- Don't write comments ([1](https://bran.name/the-truth-about-comments.html), [2](https://www.youtube.com/watch?v=Bf7vDBBOBUA)), prefer self explanatory declarative code with thoughtful naming. Put additional info into the related decision doc. If absolutely necessary mark it as `NOTE`.
-- Use thoughtful [names](https://www.youtube.com/watch?v=-J3wNP6u5YU) for functions an variables, since helps to maintain the project in a future (that "future proof" addition is required always). Well named functions explain the code without any documentation or comments. 
-- Think of development process in stages. Focus on core functionality while in MVP stage. However document all ideas for features, non-blocking bugs, possible performance points of improvement, put them into a backlog for a future iterations.
-- Put ideas where they belong. Instructions on how to deploy or roll out a project should be in a README in a root folder. Common problems across different project worth documenting in a `/editorial` gh repo (only if appeared more then once). User stories cards should be in a `/docs/user-stories/` folder inside a project. Backlog — in `/docs`.
+- Write code in a declarative style rather than an imperative one. Let your code specify **WHAT** to do rather than **HOW** to do it.
+- Prioritize immutability. As a general rule, avoid modifying the value of a variable or data structure once it's been declared. Instead, create a new variable. Be mindful of JavaScript passing values as references; prefer methods like `.map()`, `.reduce()`, and `.filter()` over `.forEach()`.
+- Utilize linters and formatting tools to maintain consistent code style throughout the codebase.
+- Embrace the [early return pattern](https://www.youtube.com/watch?v=CFRhGnuXG-4) to escape branching `if`-statements. Rather than writing an `else` statement, return an "error" condition first and place the main logic below it.
+- Implement [extraction](https://www.youtube.com/watch?v=CFRhGnuXG-4) decouple complex logic evaluating conditions for an `if`-statement into distinct functions. Call these functions from within the main method in a single line.
+- Avoid mutating state outside of a function's scope. Aim to write pure functions whenever possible.
+- Don't write comments ([1](https://bran.name/the-truth-about-comments.html), [2](https://www.youtube.com/watch?v=Bf7vDBBOBUA)), prioritize self-explanatory declarative code with meaningful naming. Document additional information in related decision documents. If necessary, mark comments as `NOTE`.
+- Choose thoughtful [names](https://www.youtube.com/watch?v=-J3wNP6u5YU) for functions and variables, as they contribute to maintaining the project in the future. Well-named functions should convey the purpose of the code without requiring additional documentation or comments.
+- Approach the development process in stages. Prioritize core functionality during the MVP stage, but document all ideas for features, non-blocking bugs, potential performance improvements, and place them into a backlog for future iterations.
+- Put ideas where they belong. - Instructions for deploying or rolling out a project should reside in a `README` file in the root folder. Document common problems across different projects in an `/editorial` GitHub repository (only if they occur more than once). User story cards should be stored in a `/docs/user-stories/` folder within the project, and the backlog should be maintained in `/docs`.
 
 ## Conventions
 

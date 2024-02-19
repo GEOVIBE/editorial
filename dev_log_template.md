@@ -14,11 +14,17 @@ What is the issue that we're seeing that is motivating this decision or change? 
 
 ## Decision
 
+### (main option name)
+
 What is the change that we're proposing and/or doing?
 
-## Consequences
+- Good, because (argument a)
 
-What becomes easier and/or more difficult to do because of this change?
+- Good, because (argument b)
+
+- Bad, because (argument c)
+
+- …
 
 ## (opt) Other Considered Options
 
@@ -46,7 +52,9 @@ What becomes easier and/or more difficult to do because of this change?
 
 - …
 
-## Links
+## Additional Info
+
+(useful links | summary of a research | ... )
 
 - (resource 1)
 

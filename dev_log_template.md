@@ -1,6 +1,6 @@
-# [Short Title of Solved Problem and Solution]
+# Short Title of Solved Problem and Solution
 
-> (opt) [Disclaimer, if document is out of date]
+> (opt) Disclaimer, if document is out of date
 
 ---
 
@@ -10,42 +10,52 @@ date: yyyy-mm-dd
 
 ## Context and Problem Description
 
-[What is the issue that we're seeing that is motivating this decision or change? What are decision drivers (i.e. requirements and limitations)?]
+What is the issue that we're seeing that is motivating this decision or change? What are decision drivers (i.e. requirements and limitations)?
 
 ## Decision
 
-[What is the change that we're proposing and/or doing?]
+### (main option name)
 
-## Consequences
+What is the change that we're proposing and/or doing?
 
-[What becomes easier and/or more difficult to do because of this change?]
+- Good, because (argument a)
 
-## (opt) Considered Options
+- Good, because (argument b)
 
-### [option 1]
-
-[example | description | pointer to more information | …]
-
-- Good, because [argument a]
-- Good, because [argument b]
-
-- Bad, because [argument c]
+- Bad, because (argument c)
 
 - …
 
-### [option 2]
+## (opt) Other Considered Options
 
-[example | description | pointer to more information | …]
+### (option 1)
 
-- Good, because [argument a]
-- Good, because [argument b]
+(example | description | pointer to more information | …)
 
-- Bad, because [argument c]
+- Good, because (argument a)
+
+- Good, because (argument b)
+
+- Bad, because (argument c)
 
 - …
 
-## Links
+### (option 2)
 
-- [resource 1]
+(example | description | pointer to more information | …)
 
-- [resource 2]
+- Good, because (argument a)
+
+- Good, because (argument b)
+
+- Bad, because (argument c)
+
+- …
+
+## Additional Info
+
+(useful links | summary of a research | ... )
+
+- (resource 1)
+
+- (resource 2)

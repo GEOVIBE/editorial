@@ -36,7 +36,7 @@
 
 - Don't write comments ([1](https://bran.name/the-truth-about-comments.html), [2](https://www.youtube.com/watch?v=Bf7vDBBOBUA)), prioritize self-explanatory declarative code with meaningful naming. Document additional information in related decision documents. If necessary, mark comments as `NOTE`.
 
-- Choose thoughtful [names](https://www.youtube.com/watch?v=-J3wNP6u5YU) for functions and variables, as they contribute to maintaining the project in the future. Well-named functions should convey the purpose of the code without requiring additional documentation or comments. Don't over do it. Sometimes its alright to name an `error` as `e`, `element` as `el`, or `request` - `req`, just make sure that those name don't overlap with other names in their scope and their meaning is crystal clear out of their context.
+- Choose thoughtful [names](https://www.youtube.com/watch?v=-J3wNP6u5YU) for functions and variables, as they contribute to maintaining the project in the future. Well-named functions should convey the purpose of the code without requiring additional documentation or comments. Don't over do it. Sometimes its alright to name an `error` as `e`, `element` as `el`, or `request` - `req`, just make sure that those name don't overlap with other names in their scope and their meaning is crystal clear out of their context. For counter variables in nested cycles (which should be used very rarely and with caution) use names in such order `i` for top-level (most of the times that one is an only one needed), `j` — for second level, `k` — for third. Mention unit values in a variable name (e.g. `delayMs`, `offsetKm`).
 
 - Approach the development process in stages. Prioritize core functionality during the MVP stage, but document all ideas for features, non-blocking bugs, potential performance improvements, and place them into a backlog for future iterations.
 
@@ -44,7 +44,7 @@
 
 ## Conventions
 
-> Disclaimer: Conventions aren't commandments, they can be broken (sometimes). However if you gonna break them, you gotta know your why and should be able to explain what are you doing in a given  particular case.
+> Disclaimer: Conventions aren't commandments, they can be broken (sometimes). However if you gonna break them, you gotta know your why and should be able to explain what are you doing in a given particular case.
 
 ### _General_
 
@@ -90,7 +90,7 @@
 
     - Prefer `tabs` over `spaces`.
 
-		- Tab width to 2.
+    - Tab width to 2.
 
     - Always write `;` in the end of line. It prevents unexpected errors.
 
@@ -114,7 +114,7 @@
 
   - Keep inner and outer scopes separately. Define outer scope relation ship for a parent element (possibly even a specific wrapper), and inner scope properties within itself.
 
-	- Don't mix styling with interactive functionality. Use classes for basic styling and custom html `data-` [attributes](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/) for [interactions](https://blog.webdevsimplified.com/2019-10/do-not-use-class-selectors-in-javascript/). Prefer `<button class='btn' data-is-active='true'>` over `<button class='btn active'>` or even BEM's `<button class='btn__is--active'>`. In that case you would not need to change css styling to apply js functionality, that makes it more verbose, separates controls from styles.
+  - Don't mix styling with interactive functionality. Use classes for basic styling and custom html `data-` [attributes](https://blog.webdevsimplified.com/2020-10/javascript-data-attributes/) for [interactions](https://blog.webdevsimplified.com/2019-10/do-not-use-class-selectors-in-javascript/). Prefer `<button class='btn' data-is-active='true'>` over `<button class='btn active'>` or even BEM's `<button class='btn__is--active'>`. In that case you would not need to change css styling to apply js functionality, that makes it more verbose, separates controls from styles.
 
   - Do **NOT** use [margins](https://mxstbr.com/thoughts/margin/). Use wrapper components instead.
 

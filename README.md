@@ -102,6 +102,8 @@
 
     - Always wrap compassion and declaration symbols (`=`, `>`, `!==` etc.) with spaces on each side.
 
+    - Force trailing commas when possible in: objects, arrays, function parameters etc. That allows easier extensions in a future.  
+
 - **HTML & CSS**
 
   - Using some of [BEM](https://en.bem.info/) (stands for `Block__Element--Modifier`) methodology. In a nutshell it's a naming convention, so treat it as such, because as a web-framework it's outdated.

@@ -1,5 +1,7 @@
 # Short Title of Solved Problem and Solution
 
+---
+
 > (opt) Disclaimer, if document is out of date
 
 ---
@@ -19,3 +21,8 @@ What is the change that we're proposing and/or doing?
 ## Consequences
 
 What becomes easier or more difficult to do because of this change?
+
+## Resources
+
+Which resources were instrumental to you?
+

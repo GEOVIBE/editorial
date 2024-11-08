@@ -1,5 +1,7 @@
 # Short Title of Solved Problem and Solution
 
+---
+
 > (opt) Disclaimer, if document is out of date
 
 ---

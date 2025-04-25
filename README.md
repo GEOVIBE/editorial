@@ -106,8 +106,6 @@
 
 - **HTML & CSS**
 
-  - Using some of [BEM](https://en.bem.info/) (stands for `Block__Element--Modifier`) methodology. In a nutshell it's a naming convention, so treat it as such, because as a web-framework it's outdated.
-
   - Use [semantic](https://pepelsbey.dev/articles/road-to-htmhell/) elements as much as possible. Even if a11y isn't a main priority at the moment, semantic HTML will improve usability over all. For example it doesn't mess tab focus, which allows "power" users to interact with an app via keyboard. At minimum try to use list for serialized date and basic page blocks for usual layout (`<nav>`, `<main>`, `<aside>`, `<body>`).
 
   - [Alphabetize](https://goodenough.us/blog/2023-02-10-all-about-css-alphabetize-normalize-and-dark-mode-itize/). Put properties inside a selector in an alphabetical order.
@@ -126,4 +124,24 @@
 
 | **Name** | **Description** |
 | -------- | --------------- |
-|          |                 |
+|  SLA     | Service Level Agreement |
+|  O&M     | Operation & Maintanance |
+|  PoC     | Proof Of Concept |
+|  MVP     | Minimum Viable Product |
+|  IoT     | Internet of Things |
+|  MQTT    | Communication protocol for IoT devices |
+|  GCP     | Ground Control Points (for georeferencing drone captured imagery) |
+|  VLOS    | Visual Line of Sight (drone flight height) |
+|  BVLOS   | Beyond Visual Line of Sight (drone flight height) |
+|  ROI     | Return of Investment |
+|  ETA     | Estimated Time of Arrival |
+|  GSD     | Ground Sample Distance (drone) |
+|  RBAC    | Role Based Access Control |
+|  AEC     | Architecture, Engineering, Construction |
+|  DEM     | Digital Elevation Model |
+|  DTM     | Digital Terrain Model (bare earth) |
+|  DSM     | Digital Surface Model (includes buildings) |
+|  ODM     | Open Drone Map (software) |
+|  UAS     | Unarmed Aerial Vechile (drone) |
+|  ERP     | Enterprise Recource Planning |
+|  SCADA   | Supervisory Control and Data Acquisition (iot related) |

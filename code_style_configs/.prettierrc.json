@@ -1,0 +1,26 @@
+{
+	"plugins": [
+		"@prettier/plugin-oxc",
+		"prettier-plugin-packagejson",
+		"@ianvs/prettier-plugin-sort-imports",
+		"prettier-plugin-svelte",
+		"prettier-plugin-css-order",
+		"prettier-plugin-tailwindcss"
+	],
+	"bracketSpacing": false,
+	"importOrder": [
+		"[.]css$",
+		"",
+		"<BUILTIN_MODULES>",
+		"<THIRD_PARTY_MODULES>",
+		"^[/]",
+		"^[.]",
+		"",
+		"<TYPES>"
+	],
+	"cssDeclarationSorterOrder": "alphabetical",
+	"printWidth": 100,
+	"proseWrap": "never",
+	"semi": true,
+	"useTabs": true
+}

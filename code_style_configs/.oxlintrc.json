@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "unicorn", "jsx-a11y"],
+  "categories": {
+    "correctness": "warn"
+  },
+	"ignorePatterns": ["build/**", "dist/**", "node_modules/**"],
+  "rules": {
+    "eqeqeq": "error",
+    "func-style": ["error", "declaration"],
+    "import/extensions": "warn",
+    "jsx-a11y/heading-has-content": "error",
+    "jsx-a11y/prefer-tag-over-role": "warn",
+    "max-depth": ["warn", {"max": 2}],
+    "no-else-return": ["warn", {"allowElseIf": false}],
+    "no-nested-ternary": "error",
+    "no-param-reassign": ["error", {"props": true}],
+    "no-var": "error",
+    "preserve-caught-error": "error",
+    "typescript/explicit-function-return-type": "off",
+    "typescript/no-explicit-any": "warn",
+    "typescript/only-throw-error": "error",
+    "unicorn/empty-brace-spaces": "warn",
+    "unicorn/error-message": "warn",
+    "unicorn/no-array-for-each": "warn",
+    "unicorn/no-array-sort": "error",
+    "unicorn/prefer-add-event-listener": "error",
+    "unicorn/prefer-array-find": "warn",
+    "unicorn/prefer-array-some": "error",
+    "unicorn/prefer-date-now": "off",
+    "unicorn/prefer-global-this": "warn",
+    "unicorn/prefer-includes": "error",
+    "unicorn/prefer-modern-dom-apis": "warn",
+    "unicorn/prefer-query-selector": "warn",
+    "unicorn/prefer-response-static-json": "warn",
+    "unicorn/prefer-set-has": "warn",
+    "unicorn/relative-url-style": ["warn", "never"],
+    "unicorn/require-array-join-separator": "error",
+    "unicorn/throw-new-error": "error",
+    "yoda": "warn"
+  }
+}

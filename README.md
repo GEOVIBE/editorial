@@ -20,7 +20,7 @@
 
 - Write code in a declarative style rather than an imperative one. Let your code specify **WHAT** to do rather than **HOW** to do it.
 - Prioritize immutability. As a general rule, avoid modifying the value of a variable or data structure once it's been declared. Instead, create a new verbose variable. Be mindful of JavaScript passing values as references; prefer methods like `.map()`, `.reduce()`, and `.filter()` over `.forEach()`.
-- Utilize linters and formatting tools to maintain consistent code style throughout the codebase.
+- Utilize linters and formatting tools to maintain consistent [code style](./code_style_configs/README.md) throughout the codebase.
 - Embrace the [early return pattern](https://www.youtube.com/watch?v=CFRhGnuXG-4) to escape branching `if`-statements. Rather than writing an `else` statement, return an "error" condition first and place the main logic below it.
 - Implement [extraction](https://www.youtube.com/watch?v=CFRhGnuXG-4) decouple complex logic evaluating conditions for an `if`-statement into distinct functions. Call these functions from within the main method in a single line.
 - Avoid mutating state outside of a function's scope (no side effects). Aim to write pure functions whenever possible.

@@ -33,7 +33,7 @@ Then add next scripts to your package json:
 ```json
 {
 	"scripts": {
-		"fmt": "prettier --write --experimental-cli",
+		"fmt": "prettier . --write --experimental-cli",
 		"fmt:check": "prettier . --experimental-cli",
 	}
 }

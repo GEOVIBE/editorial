@@ -1,0 +1,23 @@
+{
+	"$schema": "./node_modules/oxfmt/configuration_schema.json",
+	"bracketSpacing": false,
+	"proseWrap": "never",
+	"semi": true,
+	"sortPackageJson": {
+		"sortScripts": true
+	},
+	"sortImports": {
+		"groups": [
+			"style",
+			["value-builtin", "value-external", "value-internal"],
+			"unknown",
+			"type-import"
+		],
+		"newlinesBetween": true
+	},
+	"useTabs": true,
+	"svelte": true,
+	"sortTailwindcss": {
+    "stylesheet": "./path/to/stylesheet.css"
+  }
+}
